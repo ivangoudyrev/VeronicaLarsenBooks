@@ -13,30 +13,29 @@ function Navbar() {
           </div>
         </div>
       </nav>
-      <h2 className="text-center mt-5">
-        <span
-          style={{
-            fontFamily: "eb aramond, serif",
-            fontSize: "38px",
-            letterSpacing: "0.14em",
-          }}
+      <div className="container text-center mt-5 mx-0 p-0" style={{ maxWidth: "980px" }}> 
+        <div
+        style={{
+          fontFamily: "EB Garamond, serif",
+          letterSpacing: "0.14em", 
+          fontSize: "36px",
+          fontWeight: 500 }}
         >
-          <span style={{ fontStyle: "italic" }}>USA TODAY</span>
-          &nbsp;BESTSELLING AUTHOR
-        </span>
-      </h2>
-      <h2 className="text-center">
-        <span
-          style={{
-            fontFamily: "avenir-lt-w01_35-light1475496,sans-serif",
-            fontSize: "66px",
-            letterSpacing: "0.2em",
-            color: "#292929",
-          }}
-        >
-          VERONICA LARSEN
-        </span>
-      </h2>
+          <em>USA TODAY</em> BESTSELLING AUTHOR
+        </div>
+        <h2>
+          <span
+            style={{
+              fontFamily: "avenir-lt-w01_35-light1475496,sans-serif",
+              fontSize: "55px",
+              letterSpacing: "0.2em",
+              fontWeight: 100
+            }}
+          >
+            VERONICA LARSEN
+          </span>
+        </h2>
+      </div>
     </div>
   );
 }
