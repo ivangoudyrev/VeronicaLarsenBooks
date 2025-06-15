@@ -18,7 +18,7 @@ function Navbar() {
         style={{
           fontFamily: "EB Garamond, serif",
           letterSpacing: "0.14em", 
-          fontSize: "36px",
+          fontSize: "clamp(16px, 4vw, 36px)",
           fontWeight: 500 }}
         >
           <em>USA TODAY</em> BESTSELLING AUTHOR
@@ -27,7 +27,7 @@ function Navbar() {
           <span
             style={{
               fontFamily: "avenir-lt-w01_35-light1475496,sans-serif",
-              fontSize: "55px",
+              fontSize: "clamp(24px, 6vw, 66px)",
               letterSpacing: "0.2em",
               fontWeight: 100
             }}
