@@ -43,14 +43,14 @@ function Navbar() {
           </span>
         </h2>
       </div>
-      <div className="d-flex justify-content-center w-100 gap-4">
+      {/* <div className="d-flex justify-content-center w-100 gap-4">
         <ButtonFacebook />
         <ButtonTwitter />
         <ButtonYouTube />
         <ButtonPinterest />
         <ButtonTumbler />
         <ButtonInstagram />        
-      </div>
+      </div> */}
     </div>
   );
 }
