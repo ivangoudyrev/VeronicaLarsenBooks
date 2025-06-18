@@ -9,7 +9,7 @@ import Contact from './pages/Contact';
 function App() {
 
   return (
-    <div className="container">
+    <>
       <Router>
         <Navbar />
         <Routes>
@@ -19,7 +19,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
-    </div>
+    </>
   );
 }
 
