@@ -1,0 +1,21 @@
+.hero-content {
+  margin-top: -60vh;
+}
+
+@media (max-width: 10000px) {
+  .hero-content {
+    margin-top: -40vh;
+  }
+}
+
+@media (max-width: 1000px) {
+  .hero-content {
+    margin-top: -65vh;
+  }
+}
+
+@media (max-width: 650px) {
+  .hero-content {
+    margin-top: -80vh;
+  }
+}
