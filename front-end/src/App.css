@@ -41,7 +41,8 @@
   color: #888;
 } */
 
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 .custom-btn {
   width: 30px;
@@ -49,4 +50,26 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.static-bg-top {
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.static-bg-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  pointer-events: none;
 }
