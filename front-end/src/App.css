@@ -52,10 +52,24 @@
   justify-content: center;
 }
 
-.static-bg {
+.static-bg-top {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
+}
+
+.static-bg-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  pointer-events: none;
 }

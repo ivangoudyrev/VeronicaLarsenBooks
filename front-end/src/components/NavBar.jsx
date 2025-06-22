@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import ButtonFacebook from "./ButtonFacebook";
-import ButtonInstagram from "./ButtonInstagram";
-import ButtonPinterest from "./ButtonPinterest";
-import ButtonTwitter from "./ButtonTwitter";
-import ButtonYouTube from "./ButtonYouTube";
-import ButtonTumbler from "./ButtonTumbler";
+// import ButtonFacebook from "./socialMediaButtons/ButtonFacebook";
+// import ButtonInstagram from "./socialMediaButtons/ButtonInstagram";
+// import ButtonPinterest from "./socialMediaButtons/ButtonPinterest";
+// import ButtonTwitter from "./socialMediaButtons/ButtonTwitter";
+// import ButtonYouTube from "./socialMediaButtons/ButtonYouTube";
+// import ButtonTumbler from "./socialMediaButtons/ButtonTumbler";
 
 function Navbar() {
   return (
@@ -27,8 +27,11 @@ function Navbar() {
           </div>
         </div>
       </nav>
+      <div className="bg-white">
+
+      {/* </div> */}
       <div
-        className="text-center mt-5"
+        className="text-center"
         style={{ 
           maxWidth: "980px",
           paddingLeft: "1rem",
@@ -45,6 +48,7 @@ function Navbar() {
             whiteSpace: "nowrap",
             textAlign: "center",
             maxWidth: "100%",
+            paddingTop: "6vh"
           }}
         >
           <em>USA TODAY</em> BESTSELLING AUTHOR
@@ -62,6 +66,7 @@ function Navbar() {
           }}
         >VERONICA LARSEN
         </div>
+      </div>
       </div>
       {/* <div className="d-flex justify-content-center w-100 gap-4">
         <ButtonFacebook />
