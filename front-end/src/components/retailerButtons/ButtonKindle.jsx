@@ -13,7 +13,7 @@ function ButtonKindle({ retailerURLKindle }) {
       }}
     >
       <img 
-        src="assets/officialLogos/kindle-smile-logo.avif"  
+        src="/assets/officialLogos/kindle-smile-logo.avif"  
         alt="Kindle"
         style={{
           width: "100%",

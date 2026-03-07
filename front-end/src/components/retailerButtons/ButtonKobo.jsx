@@ -9,7 +9,7 @@ function ButtonKobo({ retailerURLKobo }) {
         padding: 0 
       }}
     >
-      <img src="assets/officialLogos/KoboApp.avif" width="60px" alt="Kobo" />
+      <img src="/assets/officialLogos/KoboApp.avif" width="60px" alt="Kobo" />
     </button>
   );
 }

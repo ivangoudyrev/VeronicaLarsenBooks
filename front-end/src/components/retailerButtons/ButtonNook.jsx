@@ -10,7 +10,7 @@ function ButtonNook({ retailerURLNook }) {
         padding: 0 
       }}
     >
-      <img src="assets/officialLogos/nook-app.avif" width="60px" alt="Nook" />
+      <img src="/assets/officialLogos/nook-app.avif" width="60px" alt="Nook" />
     </button>
   );
 }

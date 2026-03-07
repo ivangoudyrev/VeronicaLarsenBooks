@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import ButtonGoogle from "./retailerButtons/ButtonGoogle";
 import ButtoniBooks from "./retailerButtons/ButtoniBooks";
 import ButtonKindle from "./retailerButtons/ButtonKindle";
@@ -7,6 +8,7 @@ import ReviewSection from "./ReviewSection";
 
 function BookSection(props) {
   const {
+    bookId,
     bookTitle,
     isTop,
     bookImageURL,
@@ -99,9 +101,7 @@ function BookSection(props) {
               <div className="mb-3">
                 <img
                   className={`${
-                    bookTitle == "The Edge of Us"
-                      ? ""
-                      : "border rounded-3 shadow-lg"
+"border rounded-3 shadow-lg"
                   }`}
                   src={bookImageURL}
                   alt="Book Cover"
@@ -165,14 +165,12 @@ function BookSection(props) {
                   {retailerURLKobo && <ButtonKobo retailerURLKobo={retailerURLKobo} />}
                 </div>
                 <div>
-                  <button
-                    type="button"
-                    className="btn btn-success my-3 disabled"
-                    onClick={() => window.open(viewBookURL, "_blank")}
-                    disabled
+                  <Link
+                    to={`/books/${bookId}`}
+                    className="btn btn-success my-3"
                   >
                     View Book
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -186,14 +184,12 @@ function BookSection(props) {
                   {retailerURLKobo && <ButtonKobo retailerURLKobo={retailerURLKobo} />}
             </div>
             <div>
-              <button
-                type="button"
+              <Link
+                to={`/books/${bookId}`}
                 className="btn btn-success my-3"
-                onClick={() => window.open(viewBookURL, "_blank")}
-                disabled
               >
                 View Book
-              </button>
+              </Link>
             </div>
           </div>
         </div>
