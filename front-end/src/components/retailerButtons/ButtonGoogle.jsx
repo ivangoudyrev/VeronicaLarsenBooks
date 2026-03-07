@@ -7,7 +7,7 @@ function ButtonGoogle({ retailerURLGoogle }) {
     >
       <img
         style={{padding: 3, width: "60px", height: "60px"}} 
-        src="assets/officialLogos/lockup_ic_Google_Product_Vlarge_2582x2990px_clr.avif" width="70" alt="GooglePlay" 
+        src="/assets/officialLogos/lockup_ic_Google_Product_Vlarge_2582x2990px_clr.avif" width="70" alt="GooglePlay" 
       />
     </button>
   );

@@ -11,7 +11,7 @@ function ButtoniBooks({ retailerURLiBooks }) {
       }}
     >
       <img 
-        src="assets/officialLogos/Apple_Books_Icon.avif" 
+        src="/assets/officialLogos/Apple_Books_Icon.avif" 
         width="60px" 
         alt="iBooks" />
     </button>
