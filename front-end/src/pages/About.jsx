@@ -5,9 +5,9 @@ function About() {
     <>
       <div>
         <div
-          className="container border shadow rounded-3 hero-content"
+          className="container border shadow rounded-3"
           style={{
-            marginTop: "10vh",
+            marginTop: "2vh",
             maxWidth: "980px",
             backgroundColor: "rgba(255, 255, 255, 0.8)",
           }}
